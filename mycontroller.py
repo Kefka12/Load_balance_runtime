@@ -164,7 +164,6 @@ def main(p4info_file_path, bmv2_file_path):
         readTableRules(p4info_helper, s3)
 
         
-
     except KeyboardInterrupt:
         print(" Shutting down.")
     except grpc.RpcError as e:
